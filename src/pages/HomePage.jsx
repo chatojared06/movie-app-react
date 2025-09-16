@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import MovieCard from '../components/MovieCard';
+import MovieCard from '../Components/MovieCard';
 
 
 function HomePage() {
