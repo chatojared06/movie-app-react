@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import MovieCard from '../components/MovieCard';
 
+
 function HomePage() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
