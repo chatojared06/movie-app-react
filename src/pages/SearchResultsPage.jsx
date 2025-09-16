@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import MovieCard from '../components/MovieCard';
+import MovieCard from '../Components/MovieCard';
 
 function SearchResultsPage() {
   const { query } = useParams();
