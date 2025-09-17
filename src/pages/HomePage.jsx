@@ -34,7 +34,9 @@ function HomePage() {
   return (
     <div className="p-8 mt-18">
       <div className=''>
-        <h1 className="text-center text-5xl font-bold mb-15">Películas Populares</h1>
+        <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
+          Películas Populares
+        </h1>
       </div>
       <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-0 mx-0 mb-10'>
         {movies.map((movie) => (
@@ -42,6 +44,7 @@ function HomePage() {
         ))}
       </div>
     </div>
+    
   );
 }
 
